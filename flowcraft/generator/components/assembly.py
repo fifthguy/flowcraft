@@ -111,10 +111,10 @@ class Spades(Process):
         }
 
         self.directives = {"spades": {
-            "cpus": 4,
-            "memory": "{ 5.GB * task.attempt }",
-            "container": "flowcraft/spades",
-            "version": "3.13.0-1",
+            "cpus": 6,
+            "memory": "{ 12.GB * task.attempt }",
+            "container": "fifthguy/spades",
+            "version": "3.15.3-1",
             "scratch": "true"
         }}
 
